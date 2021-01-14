@@ -22,7 +22,13 @@ function mapToDouble(sourceArray){
   return array;
 }
 
-function mapToSquare(sourceArray){}
+function mapToSquare(sourceArray){
+  let array = [];
+  for(const i in sourceArray){
+    array.push(sourceArray[i] ** 2);
+  }
+  return array;
+}
 
 function reduceToTotal(sourceArray, startingPoint){}
 
