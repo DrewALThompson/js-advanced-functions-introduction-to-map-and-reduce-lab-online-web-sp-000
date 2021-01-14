@@ -37,7 +37,7 @@ function reduceToTotal(sourceArray, startingPoint){
     x += sourceArray[i];
     console.log(x);
   }
-  return ;
+  return x;
 }
 
 function reduceToAllTrue(sourceArray){
