@@ -48,8 +48,8 @@ function reduceToAllTrue(sourceArray){
 }
 
 function reduceToAnyTrue(sourceArray){
+  let x = true;
   for(let i = 0; i < sourceArray.length; i++){
-    let x = true;
     (i === true)? x = true : x = false;
   }
   return x;
