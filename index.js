@@ -1,6 +1,6 @@
 function mapToNegativize(sourceArray){
   let array = [];
-  for(let i = 0; i < sourceArray.length; i++){
+  for(const i in sourceArray){
     let ii = [i]* -1;
     array.push(ii);
   }
