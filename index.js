@@ -14,7 +14,13 @@ function mapToNoChange(sourceArray){
   return arr;
 }
 
-function mapToDouble(sourceArray){}
+function mapToDouble(sourceArray){
+  let array = [];
+  for(const i in sourceArray){
+    array.push(sourceArray[i] * 2);
+  }
+  return array;
+}
 
 function mapToSquare(sourceArray){}
 
