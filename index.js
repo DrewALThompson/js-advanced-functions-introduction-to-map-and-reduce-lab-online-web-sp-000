@@ -1,7 +1,15 @@
-function mapToNegativize(sourceArray){}
+function mapToNegativize(sourceArray){
+  
+}
 
 function mapToNoChange(sourceArray){}
 
-function mapToNegativize(sourceArray){}
+function mapToDouble(sourceArray){}
 
-function mapToNegativize(sourceArray){}
+function mapToSquare(sourceArray){}
+
+function reduceToTotal(sourceArray, startingPoint){}
+
+function reduceToAllTrue(sourceArray){}
+
+function reduceToAnyTrue(sourceArray){}
