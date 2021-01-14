@@ -4,8 +4,7 @@ function mapToNegativize(sourceArray){
     let neg = sourceArray[i] * -1;
     array.push(neg);
   }
-  array;
-  console.log(array);
+  return array;
 }
 
 function mapToNoChange(sourceArray){}
