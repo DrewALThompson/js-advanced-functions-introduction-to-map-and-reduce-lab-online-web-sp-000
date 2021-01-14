@@ -24,7 +24,10 @@ function mapToDouble(sourceArray){
 
 function mapToSquare(sourceArray){
   let array = [];
-  return sourceArray.ea
+  for(const i in sourceArray){
+    array.push(sourceArray[i] ** 2);
+  }
+  return array;
 }
 
 function reduceToTotal(sourceArray, startingPoint){
