@@ -52,6 +52,6 @@ function reduceToAnyTrue(sourceArray){
     if (i !== true){
       return false;
     }
-    return true;
   }
+  return true;
 }
