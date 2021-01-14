@@ -34,8 +34,8 @@ function reduceToTotal(sourceArray, startingPoint){
   let i;
   startingPoint? i = startingPoint : i = 0;
   for(let i = 0; i < sourceArray.length; i++){
-    i += sourceArray[i];
-    console.log(i)
+    i = i + sourceArray[i];
+    console.log(i);
   }
   return i;
 }
