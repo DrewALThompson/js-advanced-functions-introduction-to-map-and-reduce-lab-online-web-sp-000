@@ -2,10 +2,10 @@ function mapToNegativize(sourceArray){
   let array = [];
   for(const i in sourceArray){
     let neg = sourceArray[i] * -1;
-    console.log(neg);
     array.push(neg);
   }
   array;
+  console.log(array);
 }
 
 function mapToNoChange(sourceArray){}
